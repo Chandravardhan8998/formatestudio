@@ -1,0 +1,199 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Support for Format Studio: Data Workbench">
+      <title>Support — Format Studio: Data Workbench</title>
+
+<style>
+:root {
+  --teal: #025864;
+  --green: #00D47E;
+  --ink: #102326;
+  --muted: #5E6E71;
+  --line: #DCE5E6;
+  --bg: #F5F8F8;
+  --card: #FFFFFF;
+}
+* { box-sizing: border-box; }
+html { color-scheme: light; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+header {
+  background: var(--teal);
+  color: white;
+}
+.nav {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.brand {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  opacity: .9;
+  margin-left: 18px;
+}
+nav a:hover { opacity: 1; text-decoration: underline; }
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 56px 24px 72px;
+}
+.hero {
+  padding: 34px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(2, 88, 100, 0.06);
+}
+.eyebrow {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 8px 0 12px;
+  font-size: clamp(32px, 5vw, 52px);
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+}
+h2 {
+  margin-top: 34px;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+h3 {
+  margin-top: 26px;
+  font-size: 18px;
+}
+p, li { font-size: 16px; }
+.muted { color: var(--muted); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+}
+.button {
+  display: inline-block;
+  margin-top: 14px;
+  background: var(--green);
+  color: #073A32;
+  font-weight: 750;
+  text-decoration: none;
+  padding: 11px 16px;
+  border-radius: 9px;
+}
+.button:hover { filter: brightness(.97); }
+a { color: var(--teal); }
+code {
+  background: #EAF1F2;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  background: #fff;
+}
+.footer-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px;
+  font-size: 14px;
+}
+.notice {
+  border-left: 4px solid var(--green);
+  background: #EEF9F5;
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+ul { padding-left: 22px; }
+@media (max-width: 620px) {
+  .nav { align-items: flex-start; flex-direction: column; }
+  nav a { margin: 0 16px 0 0; }
+  main { padding-top: 32px; }
+  .hero { padding: 24px; }
+}
+</style>
+
+    </head>
+    <body>
+      <header>
+        <div class="nav">
+          <div class="brand">Format Studio: Data Workbench</div>
+          <nav aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+
+<section class="hero">
+  <div class="eyebrow">Support</div>
+  <h1>Format Studio Support</h1>
+  <p class="muted">Need help with Format Studio: Data Workbench? Send us an email and include enough detail for us to reproduce the issue.</p>
+  <a class="button" href="mailto:vardhanapps@gmail.com">Email Support</a>
+</section>
+
+<h2>Contact</h2>
+<p><strong>Email:</strong> <a href="mailto:vardhanapps@gmail.com">vardhanapps@gmail.com</a></p>
+
+<h2>What to include in a bug report</h2>
+<ul>
+  <li>Your macOS version.</li>
+  <li>Your Format Studio version and build number.</li>
+  <li>The file format involved, such as JSON, YAML, XML, CSV, SQLite, Parquet, HAR, or another supported type.</li>
+  <li>The steps you took before the issue happened.</li>
+  <li>Whether the issue happens again with a small synthetic sample.</li>
+</ul>
+
+<div class="notice">
+  <strong>Please protect confidential data.</strong><br>
+  Do not email production credentials, private keys, access tokens, customer data, or other sensitive files.
+  If a sample is necessary, please use a sanitized or synthetic version whenever possible.
+</div>
+
+<h2>Subscriptions</h2>
+<p>
+  Pro subscriptions are purchased and managed through Apple's App Store using StoreKit.
+  You can use the app's Restore Purchases or Manage Subscription actions for subscription-related account changes.
+</p>
+
+<h2>Privacy</h2>
+<p>See our <a href="privacy.html">Privacy Policy</a> for details about local file processing, clipboard use, local recovery data, StoreKit, and data handling.</p>
+
+      </main>
+      <footer>
+        <div class="footer-inner">
+          © 2026 Format Studio. Support: <a href="mailto:vardhanapps@gmail.com">vardhanapps@gmail.com</a>
+        </div>
+      </footer>
+    </body>
+    </html>
